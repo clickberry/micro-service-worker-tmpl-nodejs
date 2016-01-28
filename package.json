@@ -1,0 +1,37 @@
+{
+  "name": "clickberry-STUB-service",
+  "version": "0.2.4",
+  "main": "worker.js",
+  "description": "STUB worker micro-service on Node.js",
+  "scripts": {
+    "start": "node ./worker",
+    "test": "mocha"
+  },
+  "author": "Konstantin Altuhov",
+  "keywords": [
+    "clickberry",
+    "webservices",
+    "node.js",
+    "STUB",
+    "api",
+    "worker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clickberry/STUB-service-nodejs"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/clickberry/STUB-service-nodejs/issues"
+  },
+  "dependencies": {
+    "clickberry-config": "clickberry/config-nodejs.git#master",
+    "debug": "~2.2.0",
+    "events": "^1.0.2",
+    "express": "~4.12.4",
+    "moment": "^2.11.1",
+    "mongoose": "^4.3.7",
+    "nsqjs": "^0.7.6",
+    "util": "^0.10.3"
+  }
+}
