@@ -1,6 +1,6 @@
 {
   "name": "clickberry-STUB-service",
-  "version": "0.2.4",
+  "version": "0.0.0",
   "main": "worker.js",
   "description": "STUB worker micro-service on Node.js",
   "scripts": {
