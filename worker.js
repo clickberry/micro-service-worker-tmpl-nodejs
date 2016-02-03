@@ -5,7 +5,10 @@ var config = require('clickberry-config');
 var Bus = require('./lib/bus-service');
 var Entity = require('./models/entity');
 
-var bus = new Bus({addresses: config.get('nsqlookupd:addresses').split(',')});
+var bus = new Bus({
+    lookupdHTTPAddresses: config.get('nsqlookupd:addresses').split(','),
+    maxAttempts: 5
+});
 
 var options = {
     server: {
